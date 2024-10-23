@@ -6,7 +6,7 @@ st.title('CENTRAL DE CONTADORIA REMOTA')
 
 # Carregar o DataFrame com tratamento de erros
 try:
-    df = pd.read_csv('/home/felipe/Projetos/live_streamlit/ Consolidação .csv')
+    df = pd.read_csv('/home/felipe/Projetos/live_streamlit/ Consolidacao.csv')
 except FileNotFoundError:
     st.error("Erro: O arquivo CSV não foi encontrado.")
     st.stop()  # Interrompe a execução se o arquivo não for encontrado
